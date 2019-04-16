@@ -16,4 +16,5 @@ vnc4server :1 -blacklistthreshold 10000
 Example uses
 
 python3 ./vncbrute.py -p 5901 -P password.txt -l 127.0.0.2 -O vnc
+
 python3 ./vncbrute.py -P password.txt -lL targets.txt

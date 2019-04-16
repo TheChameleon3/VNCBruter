@@ -211,9 +211,9 @@ if __name__ == "__main__":
             x = x.split(":")
             y=x[1].split(" ")
             json.write("target_"+str(i) +"{\n")
-            json.write("\tURL:\""+x[0]+"\"\n")
-            json.write("\tPort:\""+y[0]+"\"\n")
-            json.write("\tPassword:\""+y[2].rstrip("\r\n")+"\"\n")
+            json.write("\tURL:\""+x[0]+"\",\n")
+            json.write("\tPort:\""+y[0]+"\",\n")
+            json.write("\tPassword:\""+y[2].rstrip("\r\n")+"\,"\n")
             json.write("}")
             i =i +1
 
